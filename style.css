@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body{
+  height: calc(100vh - 8em);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: #0a192f;  
+}
+
+.loader {
+    background-color: #0a192f;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: -10px;
+    color: rgba(255,255,255,.75);
+}
+
+.name{
+    position: relative;
+    top: 50%;  
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 350%;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2.5s steps(22) 0.5s 1 normal both,
+             blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 12em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+#container {
+    overflow: hidden;
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 25%;
+    background-color:#0a192f; 
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+  }
+  
+#right {
+    float: left;
+    width: 75%;
+    background-color: #0a192f;
+  }
+
+#h1text1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#h3text1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+nav {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1569C7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#HW {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#aboutme {
+    border-radius: 5px;
+    width:750px;
+    margin: 0 auto;
+    padding-top:15px;
+    background: #ccc;
+    height: 550px;
+    font-family: 'Monaco', 'Courier New';
+    font-size:15px;
+    color: #fafafa;
+}
+
+#heading {
+    text-align: center;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+    
+#aboutme1 {
+    width:670px;
+    padding: 40px;
+    height: 620px;
+    margin:0 auto;
+    background: #383737;
+}
+    
+#output {
+    color:#ccc;
+}
