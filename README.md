@@ -6,4 +6,4 @@ File named "main" contains the code files for the main page.
 
 File named "preloader" contains the code files for the preloader.
 
-File named "webpage" contains the code files for the final website.
+File named "website" contains the code files for the final website.
