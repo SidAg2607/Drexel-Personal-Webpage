@@ -1,6 +1,6 @@
 # Drexel-Personal-Webpage
 
-This repository contain all the code files of my drexel personal website: cs.drexel.edu/~sa3724/
+This repository contain all the code files of my drexel personal website: https://www.cs.drexel.edu/~sa3724/
 
 File named "main" contains the code files for the main page.
 
